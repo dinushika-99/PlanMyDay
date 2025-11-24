@@ -1,98 +1,66 @@
-# 🌱 Daily Habit & Mood Tracker App
-A simple and user-friendly Android application built with **Kotlin** for tracking daily habits, monitoring mood patterns, and staying hydrated through personalized reminders.
+# 🌟 Plan My Day - Daily Habit & Mood Tracker App
+
+A wellness-focused Android application built using **Kotlin** that helps users manage daily habits, track moods, and stay hydrated. The app uses Fragments, RecyclerViews, ViewModel, Intents, and SharedPreferences to deliver a responsive and interactive experience.
 
 ---
 
 ## 📌 Features
 
-### ✅ Habit Tracking
-- Add new habits
-- Edit existing habits
-- Delete habits
-- View all habits in a scrollable list (RecyclerView)
+### ✅ Daily Habit Tracker
+- Add, edit, and delete daily wellness habits (e.g., drink water, meditate, exercise).
+- Track daily completion progress.
+- Scrollable list of habits using **RecyclerView** with custom **Adapters** and **ViewHolders**.
 
-### 😊 Mood Tracking
-- Record your daily mood
-- Visual mood chart to view emotional patterns over time
-- Mood history stored persistently
+### 😊 Mood Journal with Emoji Selector
+- Record daily mood entries with date/time and emoji.
+- View mood history in a simple list.
+- Visualize mood trends over a week using **MPAndroidChart** (Advanced Feature).
 
 ### 💧 Hydration Reminder
-- Reminders at **1 hour, 2 hours, or 3 hours** intervals
-- Customizable in Settings
-- Notifications to stay hydrated
+- Reminders at user-selected intervals: 1, 2, or 3 hours.
+- Notifications handled via Android **AlarmManager** or **WorkManager**.
+- Persistent hydration settings across sessions.
 
-### 🎨 Themes & Settings
-- Switch app themes
-- Configure hydration frequency
-- All settings stored persistently
+### 🎨 Settings & Themes
+- Customize themes for the app.
+- Configure reminder intervals.
+- All settings stored using **SharedPreferences**.
 
 ---
 
 ## 🧩 Technical Overview
 
-### ✔ Built Using **Kotlin**
-Modern Android development practices.
-
 ### ✔ Architecture
-- **MVVM (ViewModel)** for managing UI-related data
-- ViewModel ensures data survives configuration changes (e.g., screen rotation)
+- **MVVM (Model-View-ViewModel)** architecture using ViewModels to manage UI data and survive configuration changes.
+- **Fragments** for page navigation (Habits, Mood Journal, Settings, Dashboard).
 
 ### ✔ Navigation
-- **Fragments** used for navigation between:
-    - Dashboard
-    - Habits
-    - Moods
-    - Settings
-
-### ✔ RecyclerView
-Used for habits and mood lists with:
-- Custom Adapters
-- ViewHolders
-- Linear Layout Managers
-
-### ✔ Intents
-- **Explicit Intents** for moving between activities
-- Handling data passing where required
+- Explicit **Intents** to move between screens.
+- Smooth navigation between Fragments for better user experience.
 
 ### ✔ Data Persistence
-- Local storage for:
-    - Habits
-    - Moods
-    - Hydration settings
-    - Theme preferences
+- **SharedPreferences** used to store small datasets: habits, moods, hydration settings, and themes.
 
-### ✔ UI / UX
-- Clean and responsive design
-- Smooth navigation between all app sections
+### ✔ UI Components
+- **RecyclerView** for displaying habits and mood entries.
+- **MPAndroidChart** to visualize mood trends.
+- Responsive layouts supporting portrait and landscape on phones and tablets.
 
----
-
-## 📱 Screens (Optional)
-_Add screenshots here later if you have them._
-
----
-
-## 🛠 Tools Used
-- Android Studio
+### ✔ Tools & Libraries
 - Kotlin
-- LiveData / ViewModel
+- Android Studio
 - RecyclerView
-- XML Layouts
-- SharedPreferences (or indicate if using Room later)
+- ViewModel & LiveData
+- SharedPreferences
+- MPAndroidChart
+- AlarmManager / WorkManager
 
 ---
 
-## 📦 How to Run the Project
-1. Clone the repository
-2. Open project in **Android Studio**
-3. Sync Gradle
-4. Run on emulator or physical device
+## 📱 Screenshots
+![Screenshot_Dashboard.jpg](screenshots/Screenshot_Dashboard.jpg)
+![Screenshot_Habits_Page.jpg](screenshots/Screenshot_Habits_Page.jpg)
+![Screenshot_Mood_journal.jpg](screenshots/Screenshot_Mood_journal.jpg)
+![Screenshot_Settings_Page.jpg](screenshots/Screenshot_Settings_Page.jpg)
 
----
-
-## 👩‍💻 Author
-**Nimanthi Weerakoon**  
-IT Undergraduate | Android & Data Science Enthusiast
-
----
 
