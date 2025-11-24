@@ -14,4 +14,5 @@ class HabitViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val btnLike: CheckBox = itemView.findViewById(R.id.btnLike)
     val btnEdit: ImageButton = itemView.findViewById(R.id.btnEdit) // Add this line
     val btnDelete: ImageButton = itemView.findViewById(R.id.btnDelete) // Add this line
+
 }

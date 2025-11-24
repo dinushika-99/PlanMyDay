@@ -18,6 +18,7 @@ class HabitAdapter(
     private val onToggleComplete: (Habit) -> Unit
 ) : RecyclerView.Adapter<HabitViewHolder>() {
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HabitViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_habit, parent, false)
