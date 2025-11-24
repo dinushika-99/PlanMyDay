@@ -58,10 +58,10 @@ A wellness-focused Android application built using **Kotlin** that helps users m
 ---
 
 ## 📱 Screenshots
-<img src="screenshots/Screenshot_Dashboard.jpg" alt="Home Page" width="400"/>
-<img src="screenshots/Screenshot_Habits_Page.jpg" alt="Habit Page" width="400"/>
-<img src="screenshots/Screenshot_Mood_journal.jpg" alt="Mood Chart" width="400"/>
-<img src="screenshots/Screenshot_Settings_Page.jpg" alt="Settings Page" width="400"/>
+<img src="screenshots/Screenshot_Dashboard.jpg" alt="Home Page" width="200"/>
+<img src="screenshots/Screenshot_Habits_Page.jpg" alt="Habit Page" width="200"/>
+<img src="screenshots/Screenshot_Mood_journal.jpg" alt="Mood Chart" width="200"/>
+<img src="screenshots/Screenshot_Settings_Page.jpg" alt="Settings Page" width="200"/>
 
 
 
