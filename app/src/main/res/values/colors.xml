@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_blue">#050E42</color>  //accent color
+    <color name="bg_color">#EEEEEE</color>   //primary color
+    <color name="card_color">#DDDAD0</color>   //secondary color
+
+    <color name="subCard">#D3DAD9</color>
+
+    <color name="subText">#666666</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Sad -->
+    <Button
+        android:id="@+id/btnMoodSad"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/mood_sad"
+        android:textSize="20sp"
+        app:iconPadding="0dp" />
+
+    <!-- Neutral -->
+    <Button
+        android:id="@+id/btnMoodNeutral"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/mood_neutral"
+        android:textSize="20sp"
+        app:iconPadding="0dp" />
+
+    <!-- Happy -->
+    <Button
+        android:id="@+id/btnMoodHappy"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/mood_happy"
+        android:textSize="20sp"
+        app:iconPadding="0dp" />
+
+    <!-- Very Happy -->
+    <Button
+        android:id="@+id/btnMoodVeryHappy"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/mood_very_happy"
+        android:textSize="20sp"
+        app:iconPadding="0dp" />
+
+    <!-- Excited -->
+    <Button
+        android:id="@+id/btnMoodExcited"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/mood_excited"
+        android:textSize="20sp"
+        app:iconPadding="0dp" />
+
+</LinearLayout>

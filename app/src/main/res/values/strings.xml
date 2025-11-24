@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlanMyDay</string>
+
+    <string name="habit">Habit</string>
+    <string name="mood">Mood</string>
+    <string name="setting">Setting</string>
+    <string name="report">Report</string>
+
+    <string name="add_item">Add new habit</string>
+    <string name="habits_completed">habits completed today</string>
+
+    <!-- Habit Dialog Strings -->
+    <string name="add_new_habit">Add New Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="enter_new_habit">Enter new habit</string>
+    <string name="enter_habit_name">Enter habit name</string>
+    <string name="habit_name_empty">Habit name cannot be empty</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_habit">Delete Habit</string>
+    <string name="delete_confirm">Are you sure you want to delete \'%s\'?</string>
+    <string name="delete">Delete</string>
+
+    <!-- Hydration Reminder Section -->
+    <string name="hydration_reminder_title">💧 Hydration Reminder</string>
+    <string name="enable_water_reminders">Enable Water Reminders</string>
+    <string name="reminder_interval">Reminder Interval</string>
+
+    <!-- Notification Settings Section -->
+    <string name="notifications_title">🔔 Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+
+    <!-- User Preferences Section -->
+    <string name="user_preferences_title">👤 User Preferences</string>
+    <string name="your_name">Your Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="app_theme_label">App Theme</string>
+
+    <!-- Action Buttons -->
+    <string name="save_settings_button">Save Settings</string>
+    <string name="clear_data_button">Clear All Data</string>
+
+    <!-- Toast Messages -->
+    <string name="settings_saved_toast">Settings saved!</string>
+    <string name="data_cleared_toast">All data cleared! Please restart the app.</string>
+
+    <!-- Dialog Messages -->
+    <string name="clear_data_title">Clear All Data</string>
+    <string name="clear_data_message">This will reset all your habits, mood entries, and settings. This action cannot be undone.</string>
+    <string name="clear_all_button">Clear All</string>
+    <string name="cancel_button">Cancel</string>
+
+
+    <string name="mood_sad">😢 Sad</string>
+    <string name="mood_neutral">😐 Neutral</string>
+    <string name="mood_happy">😊 Happy</string>
+    <string name="mood_very_happy">😄 Very Happy</string>
+    <string name="mood_excited">🥳 Excited</string>
+    <string name="settingTitle">Settings</string>
+
+    <string name="MoodTrack">Track your mood, improve your day</string>
+    <string name="MoodReportTitle">Your Mood Journey</string>
+    <string name="feelingTag">How are you feeling today?</string>
+    <string name="moodTag">Every mood tells a story</string>
+
+    <!-- Spinner Arrays -->
+    <string-array name="interval_entries">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+        <item>System Default</item>
+    </string-array>
+</resources>
+
